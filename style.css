@@ -101,6 +101,8 @@ p{
     margin-right: 15%;
     justify-content: space-between;
 }
+/*----- footer -----*/
+
 
 /*----- my trip -----*/
 h1.mytrip {
@@ -134,3 +136,37 @@ h1.mytrip {
 .container .box .collage img{
     width: 100%;
 }
+/*----- hikes -----*/
+
+.body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.containers{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.card img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+}
+.intro{
+    height: 200px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
