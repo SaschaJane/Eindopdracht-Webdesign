@@ -18,7 +18,7 @@ nav {
     align-items: center;
 }
 nav img{
-    width: 130px;
+    width: 100px;
     margin-left: -50px;
 
 }
@@ -102,14 +102,35 @@ p{
     justify-content: space-between;
 }
 
-img {
-    grid-gap: 1rem;
-    place-items: center;
-    position: relative;
-    display: grid;
-    box-sizing: border-box;
-    align-items: flex-end;
-    overflow: hidden;
-    padding: 1rem;
+/*----- my trip -----*/
+h1.mytrip {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #002264;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .collage{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border-radius: 1px;
+}
+
+.container .box .collage img{
     width: 100%;
-  }
+}
